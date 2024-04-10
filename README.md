@@ -1,2 +1,2 @@
 # linux-notes
-![img](MicrosoftTeams-image%20(6).png)
+![img](MicrosoftTeams-image (6).png)
