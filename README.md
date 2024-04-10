@@ -28,7 +28,7 @@ instalace:
      8.  apache2 - sudo apt install apache2
 - konfigurace
     1. LAMP >> apache2
-       - ![Apache2 official site](https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache)
+       - https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache
        -cd /etc/apache2/sites-available
        - cp 000-default.conf myconf.conf
        - změnit alias/domain/dirname
