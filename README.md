@@ -84,5 +84,5 @@ instalace:
 5. Instalace Inkscape
 •	Sudo apt update (aktualizace)
 •	Sudo apt install inkscape ( instalace inkscape)
-•	Sudo snap install  –-classic intelliJ idea ...(možné stáhnutí na ubuntu software)
+•	Sudo snap install  –-classic intellij-idea-community --classic --edge ...(možné stáhnutí na ubuntu software)
 
