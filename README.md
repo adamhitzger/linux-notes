@@ -44,4 +44,45 @@ instalace:
       -sudo nano named.conf.[name.net] >> uložit a přrejmenovat zónu na [name.net]
       -sudo nano named.conf >> include "/etc/bind/named.conf.[name.net]"
        -cp dev .local [name.net]
+-------------------------------------------------------------------------------------
+2. Vytvoření admina:
+•	Sudo mkdir  -p /admin/data (Tímto vytvořím domovský adresář)
+•	Sudo useradd -d /admin/data -s /bin/bash admin (Tímto vytvořím admina)
+•	Sudo passwd admin (Tímto vytvořím heslo pro admina)
+•	Sudo nano /etc/passwd (Napíšu jmeno v adresáři, Linux Administrator)Sudo 
+•	Sudo nano /etc/group ( přidám oprávnění k adminovi: adm, sudo)
+•	Sudo cp -R /etc/skel /admin/data (Překopírování dat z skel)
+•	Sudo Chown admin data (Oprávnění pro admina, být v rootu /admin#)
+•	Sudo Chmod 700 data (Odebrání rootu) 
+•	ll /admin/data (Podívání do složky data)
+•	cd /admin/data (adresář)
+•	su admin (přihlášení admina)
+•	cd ~ (Domovský adresář)
+
+ Vytvoření uživatele:
+•	Sudo groupadd delon (Vytvoření skupiny delon)
+•	Sudo adduser alan (vytvoření uživatele alan)
+•	Sudo nano /etc/group (přidání alana ke skupině delon)
+•	Sudo Sudo chgrp delon alan (alan ve složce delon)
+•	Sudo Chmod 740 alan (pouze na čtení v adresáři)
+•	Su alan (Přihlášení na alana)
+
+3. Vložení příkazu:
+•	Sudo nano test.sh
+1.	Cp -R ~/Dokumenty /tmp
+2.	Kill -kill 15658
+3.	Mkdir ~/Script
+4.	Touch test.sh
+5.	Chmod ug+x test.sh
+6.	Chown alan test.sh
+7.	Ps -A
+
+4. Spuštení scriptu každě pondělí v 1 hodinu
+•	Crontab -e (upravení cronu)
+1.	0 1 * * * ~/test.sh
+
+5. Instalace Inkscape
+•	Sudo apt update (aktualizace)
+•	Sudo apt install inkscape ( instalace inkscape)
+•	Sudo snap install  –-classic intelliJ idea ...(možné stáhnutí na ubuntu software)
 
