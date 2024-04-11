@@ -1,4 +1,10 @@
 # linux-notes
+- usefullink:
+   1. https://www.site24x7.com/tools/ipv4-subnetcalculator.html
+   2. w10 client iso: https://www.softlay.com/downloads/windows-10-1507
+   3. https://maturitascmsd.jednoduse.cz/
+   4. https://github.com/gemy754/maturita4it/blob/main/LinuxSiteTut
+   5. https://github.com/PatukenzeeCZ/Maturitka-PSS-PRG  
 - přepnutí do sudo: sudo -i
 - zobrazení souboru: nano [filename]
 - vytvoření složky: mkdir [-p] [path/dir_name]
