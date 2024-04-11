@@ -6,7 +6,7 @@
 - kopírování: cp -R [dir] [destination_dir]
 - zobrazení procesů: ps -A
 - update repositářů: sudo apt upgrade
-- vytvoreni usera:useradd -d /directory -s /shell [nazev_uctu] nebo adduser [nazev_uctu]
+- vytvoreni usera:useradd -m -d /directory -s /shell [nazev_uctu] nebo adduser [nazev_uctu]
 - vypsání deamonů: /etc/init.d/[app_name] status [app_name]
   [app_name]
 - ověření statu: service/systemctl [app_name] [status/start]
