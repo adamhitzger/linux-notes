@@ -12,10 +12,10 @@
 - ověření statu: service/systemctl [app_name] [status/start]
 - složky spojené s uživatelích
   1. /etc/passwd
-  2. /etc/group - admin, sudi
+  2. /etc/group - admin, sudo
 - nastavení hesla: passwd [user]
 - změna vlastníka: chown [user] [podřazená_dir]
-- změna přístupu: chmod [700] || [uga+-rxw] [dirfile_name]
+- změna přístupu: chmod [700] || [ugo+-rxw] [dirfile_name]
 - vytvoření skupiny: groupadd [groupname]
 - cron: crontab -e >> 1 >> min hod dayofmonth month dayofweek [path/dirfilename]
 instalace:
